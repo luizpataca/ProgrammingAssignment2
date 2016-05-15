@@ -1,7 +1,7 @@
 ## The following two functions create a square invertible matrix
 ## and make the inverse of the matrix available in the cache environment
 
-## This first function creates a "matrix" object that can cache its inverse.
+## This first function creates a "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         inversa <- NULL
